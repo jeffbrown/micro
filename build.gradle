@@ -1,0 +1,12 @@
+apply plugin: 'groovy'
+apply plugin: 'application'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy:2.4.12'
+}
+
+mainClassName = 'micro.MicroDemo'
