@@ -7,4 +7,12 @@ class MicroDemo {
 
         println "The Name Is ${μ}"
     }
+
+    void someMethod() {
+        // this line of code will compile...
+        String μ = 'good one'
+
+        // this line of code will not compile
+//        String µ = 'bad one'
+    }
 }
